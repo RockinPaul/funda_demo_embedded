@@ -1,0 +1,51 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - path_provider
+    - sqflite
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - funda_demo (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+
+DEPENDENCIES:
+  - Flutter (from `../funda_demo/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../funda_demo/.ios/Flutter/FlutterPluginRegistrant`)
+  - funda_demo (from `../funda_demo/.ios/Flutter`)
+  - path_provider (from `../funda_demo/.ios/.symlinks/plugins/path_provider/ios`)
+  - sqflite (from `../funda_demo/.ios/.symlinks/plugins/sqflite/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../funda_demo/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../funda_demo/.ios/Flutter/FlutterPluginRegistrant"
+  funda_demo:
+    :path: "../funda_demo/.ios/Flutter"
+  path_provider:
+    :path: "../funda_demo/.ios/.symlinks/plugins/path_provider/ios"
+  sqflite:
+    :path: "../funda_demo/.ios/.symlinks/plugins/sqflite/ios"
+
+SPEC CHECKSUMS:
+  Flutter: ac41d61a47ae5bf8195a5598d2d63754888ec0d5
+  FlutterPluginRegistrant: 25b49abcb65b33e74d96e7d340944d86b87b4a1f
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  funda_demo: 98b57cb2164987b0a0cc6107bbfffe272608595e
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+
+PODFILE CHECKSUM: e4683b0a6b8f35c346b687c148639b279ca27448
+
+COCOAPODS: 1.10.1
